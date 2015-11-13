@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gameplay">
+      <UniqueIdentifier>{F52FA6BA-E1FC-00C6-0A16-EF6DF6413654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{36EF08BC-22BC-63C7-4BD5-516F37019955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{AF02550B-1BE2-D3A6-24FA-5E7D90583A08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{43339F7C-2F6A-A00D-D856-8610C46C1C0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\code\engine\Engine.h" />
+    <ClInclude Include="..\..\code\engine\gameplay\PlayerEntity.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\graphics\EventListener.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\graphics\Manager.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\network\Client.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\network\EventListener.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\network\Manager.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\util\Guid.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\engine\gameplay\BulletEntity.h">
+      <Filter>gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\code\engine\Engine.cpp" />
+    <ClCompile Include="..\..\code\engine\gameplay\PlayerEntity.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\graphics\Manager.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\network\Client.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\network\Manager.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\util\Guid.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\engine\gameplay\BulletEntity.cpp">
+      <Filter>gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
