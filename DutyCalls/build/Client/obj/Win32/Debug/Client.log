@@ -1,0 +1,14 @@
+﻿Build started 13/11/2015 16:18:07.
+     1>Project "C:\Dev\cplusplus\network\DutyCalls\build\Client\Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\code /I..\..\dep\include /ZI /nologo /W3 /WX /MP /Od /Oy- /D GUID_WINDOWS /D DEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"obj\Win32\Debug\\" /Fd"obj\Win32\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\code\client\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Client-d.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\dep\lib /WX enet.lib winmm.lib ws2_32.lib "sfml-graphics-d.lib" "sfml-network-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\Client-d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Client-d.lib" /MACHINE:X86 obj\Win32\Debug\main.obj
+         "C:\Dev\cplusplus\network\DutyCalls\bin\Engine-d.lib"
+         Client.vcxproj -> C:\Dev\cplusplus\network\DutyCalls\build\Client\..\..\bin\Client-d.exe
+     1>Done Building Project "C:\Dev\cplusplus\network\DutyCalls\build\Client\Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
